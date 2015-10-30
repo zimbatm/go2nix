@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = "Creates Nix packages from Gemfiles."
   s.authors     = [ "Charles Strahan" ]
   s.email       = 'charles.c.strahan@gmail.com'
-  s.files       = Dir["bin/*"] + Dir["lib/**/*.rb"]
+  s.files       = Dir["bin/*"] + Dir["lib/**/*.rb"] + Dir["lib/**/*.erb"]
   s.bindir      = "bin"
   s.executables = [ "go2nix" ]
   s.extensions  = [ "extconf.rb" ]
